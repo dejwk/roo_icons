@@ -1,0 +1,39 @@
+{
+    "name": "roo_icons",
+    "description": "Collection of icons for use with the roo_display library. Icons are coming from Google's open-source 'material icons' collection."
+    "keywords": [
+        "display",
+        "icons",
+        "Material Design"
+    ],
+    "authors": [
+        {
+            "name": "Dawid Kurzyniec",
+            "email": "dawid.kurzyniec@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dejwk/roo_icons"
+    },
+    "version": "1.0.3",
+    "homepage": "https://github.com/dejwk/roo_icons",
+    "frameworks": [
+        "Arduino"
+    ],
+    "build": {
+        "srcDir": "src",
+        "srcFilter": "+<*> -<examples> -<benchmarks> -<doc> -<test>"
+    },
+    "examples": [
+        "examples/*/*.ino"
+    ],
+    "dependencies": [
+        {
+            "owner": "dejwk",
+            "name": "roo_display",
+            "version": "^1.0"
+        }
+    ]
+}
