@@ -1,3 +1,4 @@
+#include "roo_display.h"
 #include "roo_display/image/image.h"
 
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::ProgMemPtr>& ic_round_48_toggle_check_box_outline_blank();
