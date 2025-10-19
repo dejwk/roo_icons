@@ -12,6 +12,6 @@ cc_library(
         "src",
     ],
     deps = [
-        "//lib/roo_display",
+        "@roo_display",
     ],
 )
