@@ -17,7 +17,7 @@
         "type": "git",
         "url": "https://github.com/dejwk/roo_icons"
     },
-    "version": "1.2.0",
+    "version": "1.2.1",
     "homepage": "https://github.com/dejwk/roo_icons",
     "frameworks": [
         "Arduino"
@@ -30,11 +30,7 @@
     "examples": [
         "examples/*/*.ino"
     ],
-    "dependencies": [
-        {
-            "owner": "dejwk",
-            "name": "roo_display",
-            "version": ">=2.2.2"
-        }
-    ]
+    "dependencies": {
+        "dejwk/roo_display": ">=2.3.1"
+    }
 }
