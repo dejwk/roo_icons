@@ -1,9 +1,9 @@
 Import('env')
 from os.path import join, realpath
 
+is_esp32 = False
 for item in env.get("CPPDEFINES", []):
-    is_esp32 = False
-    if item == "ESP32":
+    if item in ["ARDUINO_ARCH_ESP32", "ESP32"]:
         is_esp32 = True
 
     if item == "ARDUINO_ESP32C3_DEV":
