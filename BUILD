@@ -1,6 +1,8 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+load("@rules_cc//cc:cc_test.bzl", "cc_test")
+
 cc_library(
     name = "roo_icons",
-    visibility = ["//visibility:public"],
     srcs = glob(
         [
             "src/**/*.cpp",
@@ -11,6 +13,7 @@ cc_library(
     includes = [
         "src",
     ],
+    visibility = ["//visibility:public"],
     deps = [
         "@roo_display",
     ],
