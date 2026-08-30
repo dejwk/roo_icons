@@ -31,6 +31,6 @@
         "examples/*/*.ino"
     ],
     "dependencies": {
-        "dejwk/roo_display": ">=3.2.0"
+        "dejwk/roo_display": ">=3.2.2"
     }
 }
