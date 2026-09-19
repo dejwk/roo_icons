@@ -1,3 +1,12 @@
+# roo_icons 1.2.5
+
+- Upgrade `roo_display` to 3.3.0 in Bazel and require ≥3.3.0 in PlatformIO.
+- Update Bazel dependencies: `rules_cc` to 0.2.25, `googletest` to 1.18.0.bcr.1, and `roo_testing` to 2.1.2.
+- Update shared CI workflow to `roo_testing` 2.1.2.
+- Add consolidated release notes for previous versions.
+
+---
+
 # [roo_icons 1.2.4](https://github.com/dejwk/roo_icons/releases/tag/1.2.4)
 
 Published 2026-08-30.
