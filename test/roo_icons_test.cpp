@@ -1,5 +1,6 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
+#include "roo_display.h"
 #include "roo_display/core/offscreen.h"
 #include "roo_display/ui/tile.h"
 #include "roo_icons/filled/18/hardware.h"
