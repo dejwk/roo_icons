@@ -1,3 +1,12 @@
+# roo_icons 1.2.6
+
+- Fix Arduino dependency discovery in the icon tests by including `roo_display.h` directly.
+- Upgrade `roo_display` to 3.5.0 in Bazel and raise the PlatformIO minimum to 3.5.0.
+- Upgrade `roo_testing` to 2.7.1 in Bazel and update GitHub Actions to use the 2.7.0 workflow with the `arduino_esp32` profile.
+- Add Bazel host-test configuration files for ESP32, ESP32-C3, ESP32-S3, and RP2040, plus a script to run all nine profiles. The Bazel launcher recognizes Pico profiles and selects the ESP-IDF profile for ESP-IDF example targets.
+
+---
+
 # roo_icons 1.2.5
 
 - Upgrade `roo_display` to 3.3.0 in Bazel and require ≥3.3.0 in PlatformIO.
